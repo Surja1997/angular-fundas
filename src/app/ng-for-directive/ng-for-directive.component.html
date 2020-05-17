@@ -1,0 +1,26 @@
+<!-- <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Apple Banana Orange" aria-label="Fruits"
+        aria-describedby="basic-addon2" #fruits>
+    <div class="input-group-append">
+        <span class="input-group-text" id="basic-addon2">Type Fruits</span>
+    </div>
+</div> -->
+<button type="button" (click)="display()">ngFor example</button>
+
+
+
+<div *ngIf="setDisplay">
+    <button type="button" (click)="setDisplay=false">hide</button>
+
+</div>
+<div *ngIf="setDisplay ; then thenBlock else elseBlock">
+</div>
+<ng-template #thenBlock>
+    <div *ngFor="let fruit of fruits">
+        <h2>{{fruit}}</h2>
+    </div>
+</ng-template>
+<ng-template #elseBlock>
+    <h2>Click to see fruits</h2>
+</ng-template>
+<button type="button" class="home" routerLink="/">Home</button>

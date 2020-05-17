@@ -1,0 +1,14 @@
+<button type="button" (click)="onClick()">log in</button>
+<div *ngIf="displayMsg">
+    <button type="button" (click)="displayMsg=false">log out</button>
+
+</div>
+<div *ngIf="displayMsg ; then thenBlock else elseBlock">
+</div>
+<ng-template #thenBlock>
+    <h2>{{message}}</h2>
+</ng-template>
+<ng-template #elseBlock>
+    <h2>Click to Log in</h2>
+</ng-template>
+<button type="button" class="home" routerLink="/">Home</button>

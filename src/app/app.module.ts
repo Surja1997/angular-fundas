@@ -8,7 +8,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NgForDirectiveComponent } from './ng-for-directive/ng-for-directive.component';
 import { NgClassDirectiveComponent } from './ng-class-directive/ng-class-directive.component';
 import { NgStyleDirectiveComponent } from './ng-style-directive/ng-style-directive.component';
-
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +20,8 @@ import { NgStyleDirectiveComponent } from './ng-style-directive/ng-style-directi
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

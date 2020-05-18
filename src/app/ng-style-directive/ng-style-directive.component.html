@@ -1,2 +1,20 @@
-<p>ng-style-directive works!</p>
+<h2 [style.color]="hasError?'red':'green'">Style binding has been used here</h2>
+<button type="button" (click)="hasError=!hasError">Click me</button>
+<br>
+<br>
+
+<!-- 
+<h3 [ngStyle]="styleClasses">Here ngStyle directive has been used</h3>
+<button type="button" (click)="clickStatus=!clickStatus">ngStyle change</button> -->
+
+<input [(ngModel)]="color" />
+<button (click)="size = size + 1">+</button>
+<button (click)="size = size - 1">-</button>
+
+<div [ngStyle]="{'color': color, 'font-size': size + 'px'}">
+    styling using ngStyle
+</div>
+
+<br>
+
 <button type="button" class="home" routerLink="/">Home</button>

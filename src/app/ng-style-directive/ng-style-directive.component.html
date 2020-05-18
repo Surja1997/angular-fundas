@@ -6,14 +6,15 @@
 <!-- 
 <h3 [ngStyle]="styleClasses">Here ngStyle directive has been used</h3>
 <button type="button" (click)="clickStatus=!clickStatus">ngStyle change</button> -->
-
+<h4>Enter a color name in the box</h4>
 <input [(ngModel)]="color" />
 <button (click)="size = size + 1">+</button>
 <button (click)="size = size - 1">-</button>
 
 <div [ngStyle]="{'color': color, 'font-size': size + 'px'}">
-    styling using ngStyle
+    styling using ngStyle, size of this text : {{size}} px
 </div>
+<p>This example also uses Two way binding and interpolation</p>
 
 <br>
 

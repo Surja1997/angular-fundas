@@ -7,6 +7,7 @@ import {NgClassDirectiveComponent } from './ng-class-directive/ng-class-directiv
 import {NgStyleDirectiveComponent } from './ng-style-directive/ng-style-directive.component';
 import {InterpolationComponent } from './interpolation/interpolation.component';
 import {PropertyBindingComponent } from './property-binding/property-binding.component';
+import {EventBindingComponent } from './event-binding/event-binding.component';
 
 
 
@@ -21,6 +22,8 @@ const routes: Routes = [
   {path: 'ngStyle', component: NgStyleDirectiveComponent},
   {path: 'interpolation', component: InterpolationComponent},
   {path: 'propertyBinding', component: PropertyBindingComponent},
+  {path: 'eventBinding', component: EventBindingComponent},
+
 
 
 

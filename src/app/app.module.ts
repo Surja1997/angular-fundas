@@ -11,6 +11,7 @@ import { NgStyleDirectiveComponent } from './ng-style-directive/ng-style-directi
 import { FormsModule } from '@angular/forms';
 import { InterpolationComponent } from './interpolation/interpolation.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
     NgClassDirectiveComponent,
     NgStyleDirectiveComponent,
     InterpolationComponent,
-    PropertyBindingComponent
+    PropertyBindingComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,

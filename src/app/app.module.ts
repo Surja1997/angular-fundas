@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { InterpolationComponent } from './interpolation/interpolation.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     NgStyleDirectiveComponent,
     InterpolationComponent,
     PropertyBindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,

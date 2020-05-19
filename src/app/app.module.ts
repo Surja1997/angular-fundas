@@ -9,6 +9,8 @@ import { NgForDirectiveComponent } from './ng-for-directive/ng-for-directive.com
 import { NgClassDirectiveComponent } from './ng-class-directive/ng-class-directive.component';
 import { NgStyleDirectiveComponent } from './ng-style-directive/ng-style-directive.component';
 import { FormsModule } from '@angular/forms';
+import { InterpolationComponent } from './interpolation/interpolation.component';
+import { PropertyBindingComponent } from './property-binding/property-binding.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,9 @@ import { FormsModule } from '@angular/forms';
     LandingPageComponent,
     NgForDirectiveComponent,
     NgClassDirectiveComponent,
-    NgStyleDirectiveComponent
+    NgStyleDirectiveComponent,
+    InterpolationComponent,
+    PropertyBindingComponent
   ],
   imports: [
     BrowserModule,

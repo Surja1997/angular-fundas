@@ -1,0 +1,14 @@
+<h1>Interpolation Example</h1>
+<h2>Enter your name here</h2>
+<input type="text" placeholder="Type out you name" [(ngModel)]="name" [disabled]="disabled" />
+<button type="submit" (click)=submit(name.value) value="name">Submit</button>
+<h2 *ngIf="nameExists">Your name is {{name}}</h2>
+<button *ngIf="nameExists" (click)="nameExists=false;name='';disabled=false">Change name</button>
+
+
+<p>-------------------------------------------------------</p>
+<input type="text" placeholder="haha" #message/>
+<button (click)=submit2(message.value)>submit2</button> {{message2}}
+<p>-------------------------------------------------------</p>
+
+<button type="button" class="home" routerLink="/">Home</button>

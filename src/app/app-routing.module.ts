@@ -5,6 +5,10 @@ import {PredefinedDirectivesComponent } from './predefined-directives/predefined
 import {NgForDirectiveComponent } from './ng-for-directive/ng-for-directive.component';
 import {NgClassDirectiveComponent } from './ng-class-directive/ng-class-directive.component';
 import {NgStyleDirectiveComponent } from './ng-style-directive/ng-style-directive.component';
+import {InterpolationComponent } from './interpolation/interpolation.component';
+import {PropertyBindingComponent } from './property-binding/property-binding.component';
+
+
 
 
 
@@ -15,6 +19,10 @@ const routes: Routes = [
   {path: 'ngFor', component: NgForDirectiveComponent},
   {path: 'ngClass', component: NgClassDirectiveComponent},
   {path: 'ngStyle', component: NgStyleDirectiveComponent},
+  {path: 'interpolation', component: InterpolationComponent},
+  {path: 'propertyBinding', component: PropertyBindingComponent},
+
+
 
 
 

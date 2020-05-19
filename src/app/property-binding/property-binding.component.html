@@ -1,6 +1,17 @@
 <p>property-binding works!</p>
 
+<input type="text" [disabled]='disabled' placeholder="binded disabled property" />
+<button type="button" (click)="disabled=!disabled">Toggle disable</button>
+<h4 *ngIf="disabled; else elseBlock">You have disabled the input box</h4>
+<ng-template #elseBlock>
+    <h4>Input feature is enabled</h4>
 
+</ng-template>
+<p>The above disable toggle property has been implemeted using property-binding feature</p>
+
+<p>-------------------------------------------------------</p>
+<img [src]=src style="width:100px; height:100px">
+<p>The above image has been implemeted using property-binding feature</p>
 
 
 

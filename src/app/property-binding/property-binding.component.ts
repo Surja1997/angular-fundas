@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PropertyBindingComponent implements OnInit {
 
+  disabled=false
+  src="https://images.unsplash.com/photo-1516245834210-c4c142787335?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80"
   constructor() { }
 
   ngOnInit(): void {

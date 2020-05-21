@@ -9,7 +9,7 @@ import {InterpolationComponent } from './interpolation/interpolation.component';
 import {PropertyBindingComponent } from './property-binding/property-binding.component';
 import {EventBindingComponent } from './event-binding/event-binding.component';
 import {TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
-
+import {PipesComponent} from './pipes/pipes.component';
 
 
 
@@ -25,6 +25,8 @@ const routes: Routes = [
   {path: 'propertyBinding', component: PropertyBindingComponent},
   {path: 'eventBinding', component: EventBindingComponent},
   {path: 'twoWayBinding', component: TwoWayBindingComponent},
+  {path: 'pipes', component: PipesComponent},
+
 
 
 

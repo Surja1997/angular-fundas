@@ -1,0 +1,52 @@
+<h4>Simple pipes that convert a text to upper case, lowercase, title case etc. </h4>
+
+{{message | uppercase}} <br>{{message | lowercase}}<br> {{message | titlecase}}
+<p>==========================================</p>
+
+<h4>Pipes can also be used to convert an object to json format( the object is in the TS file ) </h4>
+
+{{person | json}}
+<!--
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" checked value="uppercase" (change)="onItemChange($event.target.value)">
+    <label class="form-check-label" for="exampleRadios1">
+      upperCase
+    </label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="lowercase" (change)="onItemChange($event.target.value)">
+    <label class="form-check-label" for="exampleRadios2">
+     lowerCase
+    </label>
+</div> -->
+<p>==========================================</p>
+
+
+<h4>Power Boost Calculator</h4>
+<div>Normal power: <input [(ngModel)]="power"></div>
+<div>Boost factor: <input [(ngModel)]="factor"></div>
+<p>
+    Super Hero Power: {{power | exponentialStrength: factor}}
+</p>
+<p>==========================================</p>
+<h4>Date change pipe</h4>
+<p>The birthday is {{ birthday | date:format }}</p>
+<button (click)="toggleFormat()">Toggle Format</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>-------------------------------------------------------</p>
+
+<button type="button" class="home" routerLink="/">Home</button>

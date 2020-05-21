@@ -13,6 +13,8 @@ import { InterpolationComponent } from './interpolation/interpolation.component'
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { PipesComponent } from './pipes/pipes.component';
+import {ExponentialStrengthPipe} from './pipes/exponential-strength.pipe'
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,9 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
     InterpolationComponent,
     PropertyBindingComponent,
     EventBindingComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    PipesComponent,
+    ExponentialStrengthPipe
   ],
   imports: [
     BrowserModule,

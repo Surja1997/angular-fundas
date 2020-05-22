@@ -14,7 +14,9 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { PipesComponent } from './pipes/pipes.component';
-import {ExponentialStrengthPipe} from './pipes/exponential-strength.pipe'
+import {ExponentialStrengthPipe} from './pipes/exponential-strength.pipe';
+import { EmployeeDetailsComponent } from './employee-details/employee-details.component'
+import { EmployeeService } from './services/employee.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,14 +30,15 @@ import {ExponentialStrengthPipe} from './pipes/exponential-strength.pipe'
     EventBindingComponent,
     TwoWayBindingComponent,
     PipesComponent,
-    ExponentialStrengthPipe
+    ExponentialStrengthPipe,
+    EmployeeDetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [EmployeeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

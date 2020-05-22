@@ -17,6 +17,7 @@ import { PipesComponent } from './pipes/pipes.component';
 import {ExponentialStrengthPipe} from './pipes/exponential-strength.pipe';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component'
 import { EmployeeService } from './services/employee.service';
+import { TextModifyDirective } from './text-modify.directive';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +32,8 @@ import { EmployeeService } from './services/employee.service';
     TwoWayBindingComponent,
     PipesComponent,
     ExponentialStrengthPipe,
-    EmployeeDetailsComponent
+    EmployeeDetailsComponent,
+    TextModifyDirective
   ],
   imports: [
     BrowserModule,

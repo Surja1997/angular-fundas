@@ -10,7 +10,9 @@ import {PropertyBindingComponent } from './property-binding/property-binding.com
 import {EventBindingComponent } from './event-binding/event-binding.component';
 import {TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import {PipesComponent} from './pipes/pipes.component';
-import {EmployeeDetailsComponent } from './employee-details/employee-details.component'
+import {EmployeeDetailsComponent } from './employee-details/employee-details.component';
+import {HostListenerComponent } from './host-listener/host-listener.component';
+
 
 
 
@@ -28,6 +30,9 @@ const routes: Routes = [
   {path: 'twoWayBinding', component: TwoWayBindingComponent},
   {path: 'pipes', component: PipesComponent},
   {path: 'empDetails', component: EmployeeDetailsComponent},
+  {path: 'hostListener', component: HostListenerComponent},
+
+
 
 
 

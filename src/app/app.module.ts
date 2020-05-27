@@ -18,6 +18,8 @@ import {ExponentialStrengthPipe} from './pipes/exponential-strength.pipe';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component'
 import { EmployeeService } from './services/employee.service';
 import { TextModifyDirective } from './text-modify.directive';
+import { HostListenerComponent } from './host-listener/host-listener.component';
+import { HostListenDirective } from './host-listen.directive';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +35,9 @@ import { TextModifyDirective } from './text-modify.directive';
     PipesComponent,
     ExponentialStrengthPipe,
     EmployeeDetailsComponent,
-    TextModifyDirective
+    TextModifyDirective,
+    HostListenerComponent,
+    HostListenDirective
   ],
   imports: [
     BrowserModule,

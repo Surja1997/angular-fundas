@@ -20,6 +20,7 @@ import { EmployeeService } from './services/employee.service';
 import { TextModifyDirective } from './text-modify.directive';
 import { HostListenerComponent } from './host-listener/host-listener.component';
 import { HostListenDirective } from './host-listen.directive';
+import { HostBindDirective } from './host-bind.directive';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +38,8 @@ import { HostListenDirective } from './host-listen.directive';
     EmployeeDetailsComponent,
     TextModifyDirective,
     HostListenerComponent,
-    HostListenDirective
+    HostListenDirective,
+    HostBindDirective
   ],
   imports: [
     BrowserModule,

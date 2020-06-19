@@ -23,6 +23,7 @@ import { HostListenDirective } from './host-listen.directive';
 import { HostBindDirective } from './host-bind.directive';
 import { ContentProjectionComponent } from './content-projection/content-projection.component';
 import { CardComponent } from './card/card.component';
+import { ContainerComponent } from './container/container.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,7 +44,8 @@ import { CardComponent } from './card/card.component';
     HostListenDirective,
     HostBindDirective,
     ContentProjectionComponent,
-    CardComponent
+    CardComponent,
+    ContainerComponent
   ],
   imports: [
     BrowserModule,

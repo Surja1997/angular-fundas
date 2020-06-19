@@ -13,6 +13,10 @@ import {PipesComponent} from './pipes/pipes.component';
 import {EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import {HostListenerComponent } from './host-listener/host-listener.component';
 import {ContentProjectionComponent } from './content-projection/content-projection.component';
+import {ContainerComponent } from './container/container.component';
+
+
+
 
 
 
@@ -36,6 +40,8 @@ const routes: Routes = [
   {path: 'empDetails', component: EmployeeDetailsComponent},
   {path: 'hostListener', component: HostListenerComponent},
   {path: 'contentProjection', component: ContentProjectionComponent},
+  {path: 'container', component: ContainerComponent},
+
 
 
   

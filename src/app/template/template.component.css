@@ -1,0 +1,10 @@
+.boxes {
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: honeydew;
+}
+
+.card {
+    height: 100%;
+}

@@ -24,6 +24,7 @@ import { HostBindDirective } from './host-bind.directive';
 import { ContentProjectionComponent } from './content-projection/content-projection.component';
 import { CardComponent } from './card/card.component';
 import { ContainerComponent } from './container/container.component';
+import { TemplateComponent } from './template/template.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,7 +46,8 @@ import { ContainerComponent } from './container/container.component';
     HostBindDirective,
     ContentProjectionComponent,
     CardComponent,
-    ContainerComponent
+    ContainerComponent,
+    TemplateComponent
   ],
   imports: [
     BrowserModule,

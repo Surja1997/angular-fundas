@@ -1,0 +1,43 @@
+<p>This has used ng-template for redenring fruits and has used for loop as well. ng-template works with ng if statement</p>
+<div class="boxes">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <app-ng-for-directive></app-ng-for-directive>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <blockquote>
+                        <p>the code:-</p>
+                        <pre>
+                        <code>
+                            &lt;ng-template #thenBlock&gt;
+                            &lt;div *ngFor="let fruit of fruits"&gt;
+                                &lt;h2&gt;"interpolated fruit" &lt;/h2&gt;
+                            &lt;/div&gt;
+                            &lt;/ng-template&gt;
+                            &lt;ng-template #elseBlock&gt;
+                                &lt;h2&gt;Click to see fruits&lt;/h2&gt;
+                            &lt;/ng-template&gt;
+                    </code>
+                    </pre>
+                    </blockquote>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<p>-------------------------------------------------------</p>
+
+<button type="button" class="home" routerLink="/">Home</button>

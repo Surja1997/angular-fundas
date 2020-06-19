@@ -21,6 +21,8 @@ import { TextModifyDirective } from './text-modify.directive';
 import { HostListenerComponent } from './host-listener/host-listener.component';
 import { HostListenDirective } from './host-listen.directive';
 import { HostBindDirective } from './host-bind.directive';
+import { ContentProjectionComponent } from './content-projection/content-projection.component';
+import { CardComponent } from './card/card.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +41,9 @@ import { HostBindDirective } from './host-bind.directive';
     TextModifyDirective,
     HostListenerComponent,
     HostListenDirective,
-    HostBindDirective
+    HostBindDirective,
+    ContentProjectionComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

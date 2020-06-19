@@ -12,6 +12,10 @@ import {TwoWayBindingComponent } from './two-way-binding/two-way-binding.compone
 import {PipesComponent} from './pipes/pipes.component';
 import {EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import {HostListenerComponent } from './host-listener/host-listener.component';
+import {ContentProjectionComponent } from './content-projection/content-projection.component';
+
+
+
 
 
 
@@ -31,6 +35,10 @@ const routes: Routes = [
   {path: 'pipes', component: PipesComponent},
   {path: 'empDetails', component: EmployeeDetailsComponent},
   {path: 'hostListener', component: HostListenerComponent},
+  {path: 'contentProjection', component: ContentProjectionComponent},
+
+
+  
 
 
 

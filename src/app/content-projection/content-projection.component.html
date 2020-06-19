@@ -1,0 +1,45 @@
+<!-- card component to be used here for content projection -->
+<h1>Content projection in angular</h1>
+<h3>The cards overall are rendered from a separate component (card) and only it's some individual parts are rendered using ng content </h3>
+<div class="contact">
+
+    <div class="row">
+        <div class="col-md-6">
+            <app-card>
+                <h5 class="card-title">Laptop</h5>
+                <a href="#" class="btn btn-primary">Go to laptops</a>
+
+            </app-card>
+        </div>
+        <div class="col-md-6">
+            <app-card>
+                <h5 class="card-title">Mobile</h5>
+                <a href="#" class="btn btn-primary">Go to mobiles</a>
+
+            </app-card>
+        </div>
+        <div class="col-md-6">
+            <app-card>
+                <h5 class="card-title">TV</h5>
+                <a href="#" class="btn btn-primary">Go to TVs</a>
+
+            </app-card>
+        </div>
+        <div class="col-md-6">
+            <app-card>
+                <h5 class="card-title">Washing Machine</h5>
+                <a href="#" class="btn btn-primary">Go to Washing</a>
+
+            </app-card>
+        </div>
+
+
+
+    </div>
+</div>
+
+<br>
+<br>
+<p>-------------------------------------------------------</p>
+
+<button type="button" class="home" routerLink="/">Home</button>

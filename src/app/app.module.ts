@@ -25,6 +25,9 @@ import { ContentProjectionComponent } from './content-projection/content-project
 import { CardComponent } from './card/card.component';
 import { ContainerComponent } from './container/container.component';
 import { TemplateComponent } from './template/template.component';
+import { HttpClientModule } from '@angular/common/http';
+import { MembersComponent } from './members/members.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,12 +50,14 @@ import { TemplateComponent } from './template/template.component';
     ContentProjectionComponent,
     CardComponent,
     ContainerComponent,
-    TemplateComponent
+    TemplateComponent,
+    MembersComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [EmployeeService],
   bootstrap: [AppComponent]

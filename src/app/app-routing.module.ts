@@ -15,6 +15,8 @@ import {HostListenerComponent } from './host-listener/host-listener.component';
 import {ContentProjectionComponent } from './content-projection/content-projection.component';
 import {ContainerComponent } from './container/container.component';
 import {TemplateComponent } from './template/template.component';
+import {MembersComponent } from './members/members.component';
+
 
 
 
@@ -44,6 +46,8 @@ const routes: Routes = [
   {path: 'contentProjection', component: ContentProjectionComponent},
   {path: 'container', component: ContainerComponent},
   {path: 'template', component: TemplateComponent},
+  {path: 'members', component: MembersComponent}
+
 
 
 
